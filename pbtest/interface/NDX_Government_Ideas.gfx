@@ -1,0 +1,59 @@
+spriteTypes = {	
+
+	### MINISTERS - HEAD OF GOVERNMENT ###
+
+	spriteType = {
+		name = "GFX_idea_NDX_James_Vardaman_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/NDX/NDX_james_k_vardaman_HOG.dds"
+	}
+
+	### MINISTERS - ECONOMY MINISTERS ###
+
+	spriteType = {
+		name = "GFX_idea_NDX_John_Sheppard_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economic_Minister/NDX/NDX_john_morris_sheppard_EM.dds"
+	}
+
+	
+	### MINISTERS - FOREIGN MINISTERS ###
+
+	spriteType = {
+		name = "GFX_idea_NDX_Joseph_Bristow_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/NDX/NDX_joseph_l_bristow_FM.dds"
+	}
+
+	### MINISTERS - INTERNAL MINISTERS ###
+
+	spriteType = {
+		name = "GFX_idea_NDX_Thomas_Heflin_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/NDX/NDX_j_thomas_heflin_IM.dds"
+	}
+
+	### MINISTERS - SPECIAL INTEREST MINISTERS ###
+
+	#spriteType = {
+	#	name = "GFX_idea_ENG_PB_Bertrand_Russell_SIM"
+	#	texturefile = "gfx/interface/ideas/Government_Ideas/Special_Minister/Britain/ENG_PB_Bertrand_Russell_SIM.dds"
+	#}
+
+	### TECH TEAMS - GENERIC ###
+
+#	spriteType = {
+#		name = "GFX_idea_PB_AME_Sharps_Rifle_Company"
+#		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Sharps_Rifle_Company.dds"
+#	}
+
+#	spriteType = {
+#		name = "GFX_idea_PB_SCA_Fort_Washington"
+#		texturefile = "gfx/interface/ideas/SCA/SCA_Fort_Washington.dds"
+#	}
+
+
+	### High Command - Testing ###
+
+
+#   spriteType = {
+#		name = "GFX_idea_PB_ROM_Ion_Antonescu"
+#		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ecu_edmundo_high_command.dds"
+#	}
+} 

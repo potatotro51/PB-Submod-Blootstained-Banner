@@ -1,0 +1,15 @@
+spriteTypes = {	
+
+	### categories
+	
+
+	spriteType = {
+		name = "GFX_decision_Timer"
+		texturefile = "gfx/interface/decisions/NDX_decision_Timer.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_decision_Uprisings"
+		texturefile = "gfx/interface/decisions/NDX_decision_Uprisings.dds"
+	}
+}

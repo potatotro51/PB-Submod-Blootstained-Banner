@@ -1,0 +1,150 @@
+NDX_PB_Impending_Revolution_Category = {
+
+    NDX_Impending_Revolution_Mission = {
+						
+		icon = GFX_decision_generic_operation				
+						
+		days_mission_timeout = 200
+
+		is_good = no
+
+	available = {
+		always = no
+	}
+
+	fire_only_once = yes
+	
+	visible = {
+		ROOT = {
+		original_tag = NDX
+		}
+	}
+		selectable_mission = no
+
+		timeout_effect = {
+			country_event = { id = New_Dixie.100 days = 0 }
+			add_ideas = NDX_Revolution_Idea	
+			MRN = {
+			add_ideas = MRN_Revolution_Spirit
+			load_oob = "MRN_Rev"
+			}
+		}
+	}
+
+	NDX_PB_Revolution_Stop = {
+
+		icon = GFX_decision_Timer
+
+		available = {  
+			has_active_mission = NDX_Impending_Revolution_Mission  
+		}
+	
+
+		cost = 30
+
+		ai_will_do = {
+			factor = 4000
+		}
+
+		days_re_enable = 40
+
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = NDX_Impending_Revolution_Mission
+				days = 30
+			}
+		}
+	}
+	
+		NDX_PB_Reinforce_Bowieville = {
+
+		icon = GFX_decision_generic_operation
+
+		available = {  
+			has_active_mission = NDX_Impending_Revolution_Mission  
+			NDX = {
+					has_equipment = {
+						infantry_equipment > 30
+					}
+				has_manpower > 200
+		}
+	}
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4000
+		}
+
+
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = NDX_Impending_Revolution_Mission
+				days = 20
+			}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -30
+				}
+				add_manpower = -200
+				
+		
+		}
+	}
+	
+	NDX_PB_Fortify_Beford = {
+
+		icon = GFX_decision_generic_operation
+
+		available = {  
+			has_active_mission = NDX_Impending_Revolution_Mission  
+		}
+	
+
+		cost = 20
+
+		ai_will_do = {
+			factor = 4000
+		}
+
+
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = NDX_Impending_Revolution_Mission
+				days = 60
+			}
+			373 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 1753
+				}			
+			}
+		}
+	}	
+	
+	NDX_PB_Reinforce_Comms = {
+
+		icon = GFX_decision_generic_operation
+
+		available = {  
+			has_active_mission = NDX_Impending_Revolution_Mission  
+		}
+	
+
+		cost = 60
+
+		ai_will_do = {
+			factor = 4000
+		}
+
+
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = NDX_Impending_Revolution_Mission
+				days = 100
+			}			
+		}
+	}		
+}

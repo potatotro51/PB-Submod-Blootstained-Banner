@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_NDX_continued_uprisings"
+		texturefile = "gfx/interface/ideas/NDX/NDX_idea_Cont_Uprising.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_NDX_vigilant_watch"
+		texturefile = "gfx/interface/ideas/NDX/NDX_idea_Ever_Vigil_Watch.dds"
+	}			
+}

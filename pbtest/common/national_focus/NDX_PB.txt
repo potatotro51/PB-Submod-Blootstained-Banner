@@ -1,0 +1,256 @@
+focus_tree = {
+	id = new_dixie_focus
+	
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = NDX
+		}
+
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 0 y = 3000 }
+
+	focus = {
+		id = NDX_National_Rebirth
+		icon = GFX_goal_NDX_National_Rebirth
+		x = 10
+		y = 0
+		cost = 8
+
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				 country_event = { 
+					id = New_Dixie.1
+			}
+		}
+	}
+	
+	focus = {
+		id = NDX_Calhoun_Address
+		icon = GFX_goal_NDX_Calhoun_Address
+		x = 10
+		y = 1
+		cost = 8
+		prerequisite = { focus = NDX_National_Rebirth }
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				 country_event = { 
+					id = New_Dixie.2
+			}
+		}
+	}	
+	
+	focus = {
+		id = NDX_Snap_Elections
+		icon = GFX_goal_NDX_Snap_Elections
+		x = 10
+		y = 2
+		cost = 8
+		prerequisite = { focus = NDX_Calhoun_Address }
+		available_if_capitulated = no
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = NDX_Bilbo_Death_Tooltip
+			has_country_flag = NDX_Bilbo_Death_Tooltip_Flag
+			}
+		}
+
+		completion_reward = {
+				add_political_power = 100
+				add_stability = 0.20
+			}
+		}
+		
+	focus = {
+		id = NDX_Build_Calhoun
+		icon = GFX_goal_
+		x = 20
+		y = 0
+		cost = 8
+#		prerequisite = { focus = NDX_Calhoun_Address }
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				country_event = {
+				id = calhoun_megacity.2
+				}
+			}
+		}
+
+	focus = {
+		id = NDX_Conservative_Victory
+		icon = GFX_goal_NDX_Conservative_Victory
+		x = 10
+		y = 3
+		cost = 8
+		prerequisite = { focus = NDX_Snap_Elections }
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		country_event = {
+		id = New_Dixie.3
+		}
+				add_political_power = 60
+				add_stability = 0.20
+				add_war_support = 0.20
+			}
+		}
+
+	focus = {
+		id = NDX_Continued_Uprisings_Goal
+		icon = GFX_goal_Continued_Uprisings_Focus
+		x = 10
+		y = 4
+		cost = 8
+		prerequisite = { focus = NDX_Conservative_Victory }
+		available_if_capitulated = no
+
+
+		completion_reward = {
+					 country_event = { 
+					id = New_Dixie.4
+				}			
+			}
+		}
+
+	focus = {
+		id = NDX_Turn_Public_Against_Them
+		icon = GFX_NDX_Turn_Public_Against_Them
+		x = 8
+		y = 5
+		cost = 8
+		prerequisite = { focus = NDX_Continued_Uprisings_Goal }
+		available_if_capitulated = no
+
+
+		completion_reward = {
+					 country_event = { 
+					id = New_Dixie.5
+				}
+		add_stability = 0.1		
+			}
+		}
+
+	focus = {
+		id = NDX_Use_KKK
+		icon = GFX_NDX_Use_KKK
+		x = 10
+		y = 5
+		cost = 8
+		prerequisite = { focus = NDX_Continued_Uprisings_Goal }
+		available_if_capitulated = no
+
+
+		completion_reward = {
+					 country_event = { 
+					id = New_Dixie.6
+				}	
+			}
+		}
+
+	focus = {
+		id = NDX_Fund_Segregationists
+		icon = GFX_NDX_Fund_Segregationists
+		x = 12
+		y = 5
+		cost = 8
+		prerequisite = { focus = NDX_Continued_Uprisings_Goal }
+		available_if_capitulated = no
+
+
+		completion_reward = {
+					 country_event = { 
+					id = New_Dixie.7
+				}	
+		add_political_power = -50		
+			}
+		}	
+
+	focus = {
+		id = NDX_Reduce_Contact_Between_Races
+		icon = GFX_NDX_Reduce_Contact_Between_Races
+		x = 8
+		y = 6
+		cost = 8
+		prerequisite = { focus = NDX_Turn_Public_Against_Them}
+		prerequisite = { focus = NDX_Use_KKK}
+		prerequisite = { focus = NDX_Fund_Segregationists}
+		available_if_capitulated = no
+
+
+		completion_reward = {
+					 country_event = { 
+					id = New_Dixie.8
+				}	
+	
+			}
+		}
+
+	focus = {
+		id = NDX_Take_Prisoners_To_Farms
+		icon = GFX_NDX_Take_Prisoners_To_Farms
+		x = 10
+		y = 6
+		cost = 8
+		prerequisite = { focus = NDX_Turn_Public_Against_Them}
+		prerequisite = { focus = NDX_Use_KKK}
+		prerequisite = { focus = NDX_Fund_Segregationists}
+		available_if_capitulated = no
+
+
+		completion_reward = {
+				add_timed_idea = {
+				idea = NDX_Bolster_Grain_idea
+					days = 200
+				}
+			}
+		}	
+
+	focus = {
+		id = NDX_Condemn_Rebellion
+		icon = GFX_NDX_Condemn_Rebellion
+		x = 12
+		y = 6
+		cost = 8
+		prerequisite = { focus = NDX_Turn_Public_Against_Them}
+		prerequisite = { focus = NDX_Use_KKK}
+		prerequisite = { focus = NDX_Fund_Segregationists}
+		available_if_capitulated = no
+
+
+		completion_reward = {
+					 country_event = { 
+					id = New_Dixie.9
+				
+			}
+		}		
+	}
+
+	focus = {
+		id = NDX_Pass_Jim_Crow
+		icon = GFX_NDX_Pass_Jim_Crow
+		x = 10
+		y = 7
+		cost = 8
+		prerequisite = { focus = NDX_Reduce_Contact_Between_Races}
+		prerequisite = { focus = NDX_Take_Prisoners_To_Farms}
+		prerequisite = { focus = NDX_Condemn_Rebellion}
+		available_if_capitulated = no
+
+
+		completion_reward = {
+
+			}
+		}	
+}	
