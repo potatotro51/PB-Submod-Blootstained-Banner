@@ -1,0 +1,71 @@
+spriteTypes = {
+
+
+	
+										###New Dixie Focus Tree Sprites###
+	SpriteType = {
+		name = "GFX_goal_NDX_National_Rebirth"
+		texturefile = "gfx/interface/goals/NDX/NDX_National_Rebirth.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_NDX_Calhoun_Address"
+		texturefile = "gfx/interface/goals/NDX/NDX_Calhoun_Address.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_NDX_Snap_Elections"
+		texturefile = "gfx/interface/goals/NDX/NDX_Snap_Elections.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_NDX_Conservative_Victory"
+		texturefile = "gfx/interface/goals/NDX/NDX_Snap_Elections.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_NDX_Conservative_Victory"
+		texturefile = "gfx/interface/goals/NDX/NDX_Conservative_Victory.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_Continued_Uprisings_Focus"
+		texturefile = "gfx/interface/goals/NDX/NDX_Continued_Uprisings_Goal.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NDX_Turn_Public_Against_Them"
+		texturefile = "gfx/interface/goals/NDX/NDX_Turn_Public_Against_Them.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NDX_Use_KKK"
+		texturefile = "gfx/interface/goals/NDX/NDX_Use_KKK.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_NDX_Fund_Segregationists"
+		texturefile = "gfx/interface/goals/NDX/NDX_Fund_Segregationists.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NDX_Reduce_Contact_Between_Races"
+		texturefile = "gfx/interface/goals/NDX/NDX_Reduce_Contact_Races.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_NDX_Take_Prisoners_To_Farms"
+		texturefile = "gfx/interface/goals/NDX/NDX_Take_Prisoners_To_Farm.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NDX_Condemn_Rebellion"
+		texturefile = "gfx/interface/goals/NDX/NDX_Condemn_Rebellion.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_NDX_Pass_Jim_Crow"
+		texturefile = "gfx/interface/goals/NDX/NDX_Pass_Jim_Crow.dds"
+	}	
+}
+

@@ -1,0 +1,111 @@
+ideas = {
+
+	head_of_government = { 
+		law = yes
+		NDX_James_Vardaman_HOG= { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = NDX
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				PB_cn_trait
+				PB_Radical_Opportunist
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	foreign_minister = { 
+		law = yes
+		NDX_Joseph_Bristow_FM = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = NDX
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				PB_cn_trait
+				PB_Skilled_Orator
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	economics_minister = { 
+		law = yes
+		NDX_John_Sheppard_EM= { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = NDX
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				PB_cn_trait
+				PB_Unionist
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	internal_minister = { 
+		law = yes
+		NDX_Thomas_Heflin_IM = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = NDX
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				PB_cn_trait
+				PB_Silent_Workhorse
+			}
+			
+			cancel_if_invalid = no
+		}
+
+}

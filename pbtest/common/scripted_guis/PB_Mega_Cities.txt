@@ -1,0 +1,93 @@
+# This shit did my head in #
+# Credit to me, Bernie Fucking Sanders #
+
+scripted_gui = {
+	PB_Mega_Cities_scripted_gui = {
+		window_name = "PB_Mega_Cities_gui_window"
+		context_type = selected_state_context
+		parent_window_name = state_info_window
+
+		visible = {
+			has_state_flag = Megacity_State
+		}
+
+        effects = {
+			PB_Megacity_Help_Icon_click = {
+				if = {
+					limit = {
+						THIS = {
+							has_state_flag = Megacity_London
+						}
+					}
+					ROOT = {
+						country_event = Megacity.1
+					}
+				}
+
+				if = {
+					limit = {
+						THIS = {
+							OR = {
+								has_state_flag = Megacity_Paris
+								has_state_flag = Megacity_Paris_Rejuvinated
+							}
+						}
+					}
+					ROOT = {
+						country_event = Megacity.2
+					}
+				}
+
+				if = {
+					limit = {
+						THIS = {
+							has_state_flag = Megacity_Frankfurt
+						}
+					}
+					ROOT = {
+						country_event = Megacity.3
+					}
+				}
+
+				if = {
+					limit = {
+						THIS = {
+							has_state_flag = Megacity_Petrograd
+						}
+					}
+					ROOT = {
+						country_event = Megacity.4
+					}
+				}
+
+				if = {
+					limit = {
+						THIS = {
+							OR = {
+								has_state_flag = Megacity_Melbourne
+								has_state_flag = Megacity_Melbourne1
+								has_state_flag = Megacity_Melbourne2
+								has_state_flag = Megacity_Melbourne3
+							}
+						}
+					}
+					ROOT = {
+						country_event = Megacity.5
+					}
+				}
+				######NDX UPDATE COPY AND PASTE THESE LINES OF TEXT BETWEEN UPDATES
+				if = {
+					limit = {
+						THIS = {
+							has_state_flag = Megacity_Calhoun
+						}
+					}
+					ROOT = {
+						country_event = Calhoun_Megacity.1
+					}
+				}	
+					#############
+			}
+		}
+	}
+}

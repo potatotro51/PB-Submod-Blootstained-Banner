@@ -1,0 +1,213 @@
+add_namespace = New_Dixie
+add_namespace = Calhoun_Megacity
+
+country_event = { 
+	id = New_Dixie.1
+	title = New_Dixie.1.t
+	desc = New_Dixie.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = New_Dixie.1.a
+	
+	ai_chance = {
+	factor = 100
+		}
+	}
+}	
+
+country_event = { 
+	id = New_Dixie.2
+	title = New_Dixie.2.t
+	desc = New_Dixie.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = New_Dixie.2.a
+	
+	hidden_effect = {
+			immediate = {
+		set_country_flag = NDX_Bilbo_Death_Tooltip_Flag
+		}
+	}
+	ai_chance = {
+	factor = 100
+		}
+	}
+}
+
+country_event = { 
+	id = New_Dixie.3
+	title = New_Dixie.3.t
+	desc = New_Dixie.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = New_Dixie.3.a
+	
+	ai_chance = {
+	factor = 100
+		}
+	}
+}
+
+country_event = { 
+	id = New_Dixie.4
+	title = New_Dixie.4.t
+	desc = New_Dixie.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = New_Dixie.4.a
+	
+	ai_chance = {
+	factor = 100
+		}
+	}
+}
+
+country_event = { 
+	id = New_Dixie.5
+	title = New_Dixie.5.t
+	desc = New_Dixie.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = New_Dixie.5.a
+	
+	ai_chance = {
+	factor = 100
+		}
+	}
+}
+
+country_event = { 
+	id = New_Dixie.6
+	title = New_Dixie.6.t
+	desc = New_Dixie.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = New_Dixie.6.a
+	
+	ai_chance = {
+	factor = 100
+		}
+	}
+}
+
+country_event = { 
+	id = New_Dixie.7
+	title = New_Dixie.7.t
+	desc = New_Dixie.7.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = New_Dixie.7.a
+	
+	ai_chance = {
+	factor = 100
+		}
+	}
+}
+
+country_event = { 
+	id = New_Dixie.8
+	title = New_Dixie.8.t
+	desc = New_Dixie.8.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = New_Dixie.8.a
+	
+	ai_chance = {
+	factor = 100
+		}
+	}
+}
+
+country_event = { 
+	id = New_Dixie.9
+	title = New_Dixie.9.t
+	desc = New_Dixie.9.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = New_Dixie.9.a
+	
+	ai_chance = {
+	factor = 100
+		}
+	}
+}
+
+country_event = { 
+	id = New_Dixie.100
+	title = New_Dixie.100.t
+	desc = New_Dixie.100.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = New_Dixie.100.a
+	
+	ai_chance = {
+	factor = 100
+		}
+	}
+}
+###Calhoun Megacity Event
+country_event = { 
+	id = Calhoun_Megacity.1
+	title = Calhoun_Megacity.1.t
+	desc = Calhoun_Megacity.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = Calhoun_Megacity.1.a
+	
+	ai_chance = {
+	factor = 100
+		}
+	}
+}	
+
+country_event = {
+    id = Calhoun_Megacity.2
+    title = Calhoun_Megacity.2.t
+    desc = Calhoun_Megacity.2.d
+  #  picture = 
+    
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+    
+    immediate = {
+	373 = {
+   			 set_state_flag = Megacity_State
+   			 set_state_flag = Megacity_Calhoun
+   		 }
+    }
+    
+    option = { #
+   	 name = Calhoun_Megacity.2.a
+
+   	 ai_chance = {
+   		 factor = 100
+   		 }
+   	 
+   	 hidden_effect = {
+   		 
+		}
+    }
+}

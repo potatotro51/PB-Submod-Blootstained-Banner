@@ -1,0 +1,14 @@
+NDX_PB_Impending_Revolution_Category = {
+	icon = GFX_decision_Uprisings
+    allowed = {
+		OR = {
+			tag = NDX
+		}
+	}
+	visible = {
+		always = yes
+		# has_global_flag = PB_Wild_West_Wars
+	}
+	priority = 100
+}
+

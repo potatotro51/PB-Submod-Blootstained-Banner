@@ -1,0 +1,125 @@
+﻿l_english:
+
+##########################
+# Ministers
+##########################
+  NDX_James_Vardaman_HOG:0 "James K Vardaman"
+  NDX_Joseph_Bristow_FM:0 "Joseph L Bristow"
+  NDX_John_Sheppard_EM:0 "John M Sheppard"
+  NDX_Thomas_Heflin_IM:0 "J Thomas Heflin"
+
+  ##########################
+ # NDX_ni_party_long:0 "New Walden Renaissance Reversal Party"
+ # NDX_ni_party:0 "NWRRP"
+  NDX_rc_party_long:0 "National Patriotic Party"
+  NDX_rc_party:0 "NPP"
+ # NDX_ds_party_long:0 "Sovereign Roots Party"
+ # NDX_ds_party:0 "SRP"
+ # NDX_cn_party_long:0 "New Sons of Liberty and Freedom Resistance"
+ # NDX_cn_party:0 "NSLF Resistance"  
+ # NDX_lb_party_long:0 "Renewal and Equality Party of New Walden"
+ # NDX_lb_party:0 "REPNW"  
+ # NDX_an_party_long:0 "Freedonian Resistance"
+ # NDX_an_party:0 "Freedonian Resistance"
+ # NDX_ss_party_long:0 "Transcendentalist Party of New Walden - Moderates"
+ # NDX_ss_party:0 "TPNW - Moderates"  
+ # NDX_jc_party_long:0 "Radical Transcendentalist Party of New Walden - Anarchists"
+ # NDX_jc_party:0 "RTPNW - Anarchists"
+  
+############Decisions##############
+NDX_PB_Impending_Revolution_Category:0 "The Impending Revolution"
+NDX_PB_Impending_Revolution_Category_desc:0 "The Founding Ideals of New Dixie were always related to Segregation, once our forefathers had established themselves westwards of the Mississippi they decided to dictate the lives of the local populace, imposing their own laws and ideas. One Idea that was inherited from them was Slavery. Since the Revolution of 1880 Slavery has been outlawed but still, the Negroes continue to undermine us and our government and they wish to vow for full racial equality, something that we just cant accept. Several efforts have been made to destroy their movement but nothing has been succesfull. We must deal with the matter or face a second revolution."
+NDX_Impending_Revolution_Mission:0 "The Impending Revolution"
+NDX_PB_Revolution_Stop:0 "Buying for Time"
+ ##########################
+  # TOP BAR
+  ##########################
+
+    NDX_Country_Desc_Topbar:0 "§YFeatures:§!\n    - Secure the American Dream \n    - Expand across the East to civilise the tribesmen \n    - Defeat the Commonwealth of America \n    - Secure America as a Global Power \n\n§YNew Dixie§! New Dixie is the remnant of what once was a proud and glorious insurrection against the Liberals in Philadelphia. After the Liberals secured Victory in America, the House of Commons passed the Abolition Act of 1833, ending slavery in the British Isles and their Direct Colonies, this included the Commonwealth of America, the Act caused mass panic and unrest across the American South, leading Southern MIPs of the Imperial Parliament to dramatically walk when the expansion of the act to the Commonwealth is suggested, Slave Populations in the South begin to stage disorganized uprisings, sparking mass racial violence throughout the Southern Provinces of the Commonwealth.\n\n On Decemeber 13th of 1833 the Northern MIPs cooperating with the British Liberals, push a motion through the Imperial Parliament to expand the Abolition Act to the Commonwealth. As the Southern MIPs had walked, the move narrowly passes. Slavery is officially ended in the Commonwealth of America. 5 Days after the Declaration, the Bleeding South begins. The Southern Provinces of the Commonwealth explode into disorganizef rebellion and racial violence over the Act's passage. Talks of secession begin among Southern leadership. British and American troops begin moving to restore order.\n\n Eventually, the South fell to the Americans once more as the Dixies retreated West of the Mississippi, still in action. the Commonwealth, unable to pass the Mississippi, approached New Dixie for peace talks. On November 11th of 1836 the Melbourne Calhoun Treaty is signed, ending hostilities between New Dixies and the United Commonwealth. The treaty establishes demilitarized ports along the Mississippi, officially ending American interventionism beyond the river and formalized the borders of both nations. \nWith relative stability, growth erupts in Dixie with thousands flocking West to explore the life and restore the tradition of Slavery. The Settlers of the Areas of New Dixie would be named accordingly and thus the Nation Prospered, Farms were constructed which were operated by slaves, Iron was discovered in the Calhoun Area, and there was a Baby Boom, proving the success of the new state.\n\nOn January 12th of 1860, a large scale black rebellion had begun, the rebellion gained considerable momentum when it unified with the forces of militant abolitionist John Brown. Brown, a Commonwealth citizen had been fighting a low intensity rebellion across the border since the end of hostilities in an effort to end New Dixie's slavery policy.\n\nOn February 28th of 1860, the Great Negro Rebellion had largely escalated throughout New Dixie, as over 26 plantations had been sacked and burned by rebels. The United Commonwealth is hesitant to support the rebels, fearing that it may upset the delicate balance of power in the Post war Southern Provinces.\n\nOn December 25th of 1860, the Negro Rebellion was pushed North outside the lands of Dixie, with their professional military, though slow to muster, managing to put dow nrebel exclaves and isolate the rebel forces. Politically, however the rebels make significant gains in forcing the abolition issue to New Dixie's parliament. Fearing the possibility of further uprisings, the parliament of New Dixie becomes the last nation in the Americas to abolish slavery. Though some of the rebels agree to disarm at the announcement, black radicals renew ideas of secessionism.\n\n Today New Dixie stands, divided with Black Discrimination and White Supremacy laws in place, the future looks Grimm for Dixie unless hope rears its head. \n\n §YSpecial thanks to§!:TEST\n\n\n"
+
+  ####Events#####
+  New_Dixie.1.t:0 "An Important Meeting"
+  New_Dixie.1.d:0 "Under the Evening of Calhoun, the President and his Trusted Cabinet sit to discuss the Situation of New Dixie, while a servant fills their cups with Cold refreshing water, Theodore stands to make his address.\n\n" A hundred years have passed since the foundation of our nation, that day where we were victorious against the Americans and proclaimed the foundation of New Dixie. Since then our nation has been infected with countless problems that keep rearing their ugly heads, preventing us from achieving our full potential. I have called this meeting for us to discuss possible ways to improve New Dixie and improve the lives of our people. " He sat down, raising his glass and taking a sip of water.\n\nSuddenly, Vardaman raised his hand, requesting to speak. Bilbo gave the go ahead and so Vardaman rose and begun to give his ideas.\n\n" In order to improve our sacred nation, it is my belief that we should bolster the armed forces. Since the Revolutionary War our forces remain under supplied, unmanned and weak, but in order to restore our units, we must first restore our economy. That is why i believe we should start work on an all out industrialisation program to improve the State of New Dixie. " With that, Vardaman sat down, awaiting Bilbo's response.\n\nBilbo, quite unfazed by his announcement responded " Industrialisation is quite near impossible. Our nation has no money to fund this programme, let alone maintain it. How do you expect for us to find this money? We can't raise taxes on the people, they'll hang us. " \n\n" Sir, " said Sheppard, " I may have a possible solution to that problem. " he said with confidence. \n" Go ahead. " Blibo responded. \n" What if we sought out investments from the Russians? Im sure they think its a worthy cause, in order to undermine British Influence. If we at least got a meeting with them it would be easier to persuade them. " \n\nBilbo, clearly shaken responded, " That's not a half bad Idea. We could easily seek investments, not only from the Russians, but from France or Spain. It would be easier to acquire funds this way, and we could repay them back later. "\n\nThe rest of the Meeting was spent discussing about cutting costs on some social services, discussing the rampant Negro address, and other matters. At the end of the Day, the Plan was set. Biblo would arrange a meeting with the Russian Representative in order to discuss possible investment opportunities.\n\nBilbo also planned to make an address later that week, to reassure the people of Dixie about the current situation. He wanted to make sure the people knew that the dark ages would soon stop and vast glories were to come for New Dixie."
+  New_Dixie.1.a:0 "Let's Pray that's the case."
+  
+  New_Dixie.2.t:0 "The Calhoun Address"
+  New_Dixie.2.d:0 ""
+  New_Dixie.2.a:0 "WIP"
+  
+  New_Dixie.3.t:0 "Vardaman's Victory Speech"
+  New_Dixie.3.d:0 ""
+  New_Dixie.3.a:0 "WIP"  
+  
+  New_Dixie.4.t:0 "Report 500A"
+  New_Dixie.4.d:0 ""
+  New_Dixie.4.a:0 "WIP"  
+  
+  New_Dixie.5.t:0 "A Night in Calhoun"
+  New_Dixie.5.d:0 ""
+  New_Dixie.5.a:0 "WIP"  
+  
+  New_Dixie.6.t:0 "The Neighborhood"
+  New_Dixie.6.d:0 ""
+  New_Dixie.6.a:0 "WIP"  
+  
+  New_Dixie.7.t:0 "A Surprise Meeting"
+  New_Dixie.7.d:0 ""
+  New_Dixie.7.a:0 "WIP" 
+
+  New_Dixie.8.t:0 "I Haven't seen old Toby"
+  New_Dixie.8.d:0 ""
+  New_Dixie.8.a:0 "WIP" 
+
+  New_Dixie.9.t:0 "And we shall fight On!"
+  New_Dixie.9.d:0 ""
+  New_Dixie.9.a:0 "WIP" 
+###############################
+  Calhoun_Megacity.1.t:0 "CALHOUN, DISTRICT OF DIXIE - DOCUMENTATION FILE"
+  Calhoun_Megacity.1.d:0 "The Calhoun Megacity is the latest Megacity in human history, having been built by the burgeoning nation of New Dixie over the span of multiple years. \nCalhoun might be impressive but it is nothing in comparison to London or St Petersburg, some even debating if it deserve the label of Megacity. Contrary to London Calhoun isn't a layered megacity, meaning that it doesn't expand vertically but horizontally, with the city measuring approximately 21,093 square kilometers. \n\nAll of New Dixie's administrative buildings and a large part of it's cultural buildings were built in Calhoun, making it the cultural and administrative capital of the young nation.\nCalhoun has been described as an impressive industrial complex with many factories being built in the outer areas of the Megacity.\nThe downtown area in the center of Calhoun however was described as a surprising cultural center, with beautiful buildings such as the Calhoun Opera house, the Parliament, the Government building and the Bonnie Blue Stadium.\n\nCalhoun's population is primarily composed of white Americans, with a small portion of Freedmen living in the outer areas and rarely seen in the downtown area, being banned from most districts.\nThe Megacity was mostly built by Freedmen workers. Foreign observers recall thousands of deaths and accidents due to the poor conditions, some even give Calhoun the unpleasant nickname of "Blood soiled City"\n\nThe air quality in Calhoun is relatively good in the downtown area, however the outer and industrial areas are consider highly polluted and even unbreathable, many residents mostly freedmen having to wear face-masks to leave their homes.\nCalhoun is known for it's multiple railways, roads and it's two airports, the Southern Cross airport in the industrial areas mostly used to transport goods. And the Theodore G. Bilbo airport near the downtown area, mostly used for tourism.\nThanks to it's infrastructure the Megacity is the beating heart of New Dixie connected to all regions of the nation, thus the famous saying: "All roads lead to Calhoun"."
+  Calhoun_Megacity.1.a:0 "END FILE"
+
+#########Decision Events #################
+ New_Dixie.100.t:0 ""All Communications cut with the West"
+    ###National Focuses###
+    NDX_National_Rebirth:0 "A National Rebirth"
+        NDX_National_Rebirth_desc:0 "Over 100 Years have passed since the founding of our nation, and yet we have been left in the sidelines of the world as America has overshowed us in every way possible. Our Nation suffers as poverty has skyrocketed and development is limited if existent at all. There have also been several uprising by the Negro part of our population, seeking to establish racial equality and removing discrimination from our country. We sit in Peril and Raiders from the West destroy our settlements and loot our towns. No more shall we stand by this, it is time to begin a great leap forward for dixie to reintroduce our finding ideals. We shall return to America as liberators!"
+    NDX_Calhoun_Address:0 "The Calhoun Address"
+        NDX_Calhoun_Address_desc:0 "After the National Meeting that occured, Theodore G. Bilbo has planned to make an adress to the entire nation in Calhoun about the current state of affairs in the nation. He plans to answer questions as well as reassure the populace that things will get better. Due to the State of our country and with the protests of the Negro population, security will be raised in order to secure the safety of Theodore in case of an unexpected attack."
+    NDX_Snap_Elections:0 "Snap Elections"
+        NDX_Snap_Elections_desc:0 "With the Suddent Death of our Dear President, Head of Government James K. Vardamn has announced Snap Elections in Dixie which will take place in 6 Months. During this time, several parties can begin advertisement campaigns and try to begin turning New Dixie into a Democracy and begin reforms on the nation. While the Elections are being prepared, the K.K.K Paramilitary Corps have begun increasing operations, this could be a threat and should be dealt with by the Provisional Government."
+    NDX_Conservative_Victory:0 "Conservative Victory"
+        NDX_Conservative_Victory_desc:0 "With the End of the Elections the Conservative Party has guaranteed Victory for James K. Vardaman, his government will quickly assemble a cabinet and begin work on Bilbos plans."
+    NDX_Continued_Uprisings_Goal:0 "The Continued Uprisings"
+        NDX_Continued_Uprisings_Goal_desc:0 "Since the Foundation of our Nation there have been several Black revolutionaries against our rule, the largest of the revolutions came in 1980 where we kicked out the Marooners, now they are back, supporting revolutionary actions within our nation, we shall stand by this no longer. It is time to end the threat once and for all!"
+    NDX_Turn_Public_Against_Them:0 "Turn the Public Against Them"
+        NDX_Turn_Public_Against_Them_desc:0 " If we can prove to the Public what a threat the Revolutionaries and more generally, the Negros are, we can thus begin the great divide, to single out the weak from the Pure. If we do this we can secure our Nation for Generations to come."
+    NDX_Use_KKK:0 "Use the KKK"
+        NDX_Use_KKK_desc:0 "The Paramilitary Group known as the K.K.K has already begun dealing with the blacks before us, it is time we use them to our advantage. If we use them as a sort of " Police Force " they can assist us with the continued uprising that we are facing, a bit of training and they could be the perfect Paramilitary Group for New Dixie."
+    NDX_Fund_Segregationists:0 "Fund the Segregationist Movement"
+        NDX_Fund_Segregationists_desc:0 "several of our people have begun advocating for the Segregationist movement, if we fund their efforts we can attempt to pass through the parliament the Jim Crow laws, this would be the final step in Segregation. Several of our deposits will be sent of to them to help advertise their campaigns."
+    NDX_Reduce_Contact_Between_Races:0 "Reduce Contact between the two Races"
+        NDX_Reduce_Contact_Between_Races_desc:0 "We shall attempt to exclude the Blacks from the Whites, setting them up for special hours during work, giving them their own side of the street, making special bathrooms for them, these will all come in handy when we attempt to fully exclude them from our society. "
+    NDX_Take_Prisoners_To_Farms:0 "Taking the Prisoners to the Farms"
+        NDX_Take_Prisoners_To_Farms_desc:0 "The Rebellion has not been entirely succesfull in their crusade, as we have captured about a thousand of their recruits, even more. In order to teach them a lesson, we will impose hard labour upon them, using them on our farms to produce gain, which would give us a grain boost. "
+    NDX_Condemn_Rebellion:0 "Condemning the Rebellion"
+        NDX_Condemn_Rebellion_desc:0 " Several Speeches will be made by Vardaman telling the people about the atrocities of the Rebellion, and how many lives have been lost trying to pacify this threat, making the people realise how dangerous of a threat this is."
+    NDX_Pass_Jim_Crow:0 "Passing the Jim Crow Laws"
+        NDX_Pass_Jim_Crow_desc:0 "The Time has finally come, no longer shall we feel threatened by the Blacks in our society for they are completely cut off, living in their own world, we will not engage with them unless we require them for work. Today is a great day as we have gathered enough public support and enough forces to gain the publics approval as well as prevent a massive uprising. Today we honour our ancestors."
+###########################
+NDX_Bilbo_Death_Tooltip:0 "A Crisis Has Struck New Dixie"
+        
+ ###Ideas###
+PB_idea_NDX_Continued_Uprisings:0 "The Continued Uprising"
+    PB_idea_NDX_Continued_Uprisings_desc:0 "Once we complied the demands of the Negros, their uprising did not stop. Several of our farms have been raided, our stockpiles run low, they are migrating to secluded parts of the countryside to not run in on us, the Negros are and will be a continued problem unless we put an end to them. Until then, New Dixie in and of itself is under threat."
+PB_idea_NDX_Ever_Vigilant_Watch:0 "Ever Vigilant Watch"
+    PB_idea_NDX_Ever_Vigilant_Watch_desc:0 "Since the foundation of our Nation, we have been plagued with the burden of the existance of our Eastern Neighbour. The Commonwealth will not rest until we are wiped off America, but we have shown our worth as we held them back from our lands due to the assistance of the Mississipi River. America although, is on the lookout, scouting around our parts, examining our lands, finding weaknesses. We cannot allow them to Continue. We must increase the Size of our Military in order to Combat the Americans."
+NDX_Bolster_Grain_idea:0 "Back on the Farm"    
+NDX_Revolution_idea:0 "The Revolution"
+
+MRN_Revolution_Spirit:0 "Spirit of the Revolution"
+MRN_Revolution_Spirit_desc:0 "Ever since our Founding Fathers begun the revolution against the opressors in D.C we have been placed with fertile territory to create our own nation, now our brothers in the South beg for our help once more as they take on the Dixie Giant, we shall come their aid and liberate our people once and for all! "
+
+  #################Decisions Cost###################
+  NDX_PB_Reinforce_Bowieville:0 "Reinforce Bowieville Police"
+  NDX_PB_Fortify_Beford:0 "Fortify Beford"
+  NDX_PB_Reinforce_Comms:0 "Reinforce Our Communication Efforts"

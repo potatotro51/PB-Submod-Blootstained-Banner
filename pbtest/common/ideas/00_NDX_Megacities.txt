@@ -1,0 +1,23 @@
+##################
+# MEGACITY IDEAS
+##################
+
+
+
+ideas = {
+
+	hidden_ideas = {
+
+		MGC_Calhoun = {
+			allowed = { always = no }
+			modifier = {
+
+			}
+			cancel = {
+				NOT = {
+					owns_state = 373
+				}
+			}
+		}
+    }
+}
